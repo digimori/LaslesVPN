@@ -1,0 +1,54 @@
+/* General layout */
+.flex__center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Typography */
+
+/* Paragraph text */
+.p__rubik {
+  font-family: var(--font-base);
+  color: var(--color-gray);
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  font-feature-settings: "tnum" on, "lnum" on;
+  line-height: 1.875rem;
+  font-size: 1rem;
+}
+
+.li__text {
+  font-family: var(--font-base);
+  color: var(--color-gray);
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  font-feature-settings: "tnum" on, "lnum" on;
+  line-height: 2rem;
+  font-size: 0.875rem;
+}
+
+/* Header text - h1/h2 */
+.headtext__rubik {
+  font-family: var(--font-base);
+  color: var(--color-black);
+  font-size: 3.125rem;
+  line-height: 3.5rem;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+}
+
+.h2__rubik {
+  font-family: var(--font-base);
+  color: var(--color-black);
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  font-feature-settings: "tnum" on, "lnum" on;
+  line-height: 3.6rem;
+  font-size: 2.188rem;
+}
