@@ -1,0 +1,45 @@
+div.navbar-nav a {
+  font-size: 1rem;
+  font-family: var(--font-base);
+  font-weight: 400;
+  color: var(--color-gray);
+  padding: 0 20px;
+}
+
+a.navbar-brand {
+  display: flex;
+  align-items: center;
+  color: var(--color-black);
+  font-size: 1.25rem;
+  font-weight: 500;
+  font-family: var(--font-base);
+}
+
+a.navbar-brand img {
+  margin: 0 1rem;
+}
+
+div.navbar-nav {
+  display: flex;
+  align-items: center;
+}
+
+div > a.signIn {
+  font-family: var(--font-base);
+  color: var(--color-black);
+  font-size: 1rem;
+  margin-right: 30px;
+  font-weight: 500;
+}
+
+button.nav__button {
+  width: 150px;
+  height: 45px;
+  color: var(--color-red);
+  background-color: #fff;
+  border: 1px solid #f53855;
+  border-radius: 50px;
+  font-weight: 500;
+  font-family: var(--font-base);
+  font-size: 1rem;
+}
