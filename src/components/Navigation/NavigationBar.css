@@ -4,6 +4,7 @@ div.navbar-nav a {
   font-weight: 400;
   color: var(--color-gray);
   padding: 0 20px;
+  margin: 0 15px;
 }
 
 a.navbar-brand {
@@ -35,6 +36,7 @@ div > a.signIn {
 div.container {
   display: flex;
   align-items: center;
+  margin-bottom: 30px;
 }
 
 button.nav__button {

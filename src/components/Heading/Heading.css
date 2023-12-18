@@ -1,0 +1,21 @@
+div.heading__container {
+  margin-top: 80px;
+}
+
+.heading__btncont button {
+  box-shadow: 1px 29px 70px 0px rgba(245, 56, 56, 0.35);
+}
+
+.heading__image img {
+  height: 383px;
+  width: auto;
+  max-width: 100%;
+}
+
+div.heading__text {
+  padding-top: 60px;
+}
+
+.heading__text-p {
+  padding: 20px 0;
+}

@@ -7,7 +7,11 @@ import { Button } from "react-bootstrap";
 
 const NavigationBar = () => {
   return (
-    <Navbar expand="lg" data-bs-theme="light" style={{ top: "15px" }}>
+    <Navbar
+      expand="lg"
+      data-bs-theme="light"
+      style={{ top: "15px" }}
+    >
       <Container>
         <Navbar.Brand href="/">
           <img src={logo} alt="logo" />
