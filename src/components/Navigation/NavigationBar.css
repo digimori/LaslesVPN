@@ -32,6 +32,11 @@ div > a.signIn {
   font-weight: 500;
 }
 
+div.container {
+  display: flex;
+  align-items: center;
+}
+
 button.nav__button {
   width: 150px;
   height: 45px;
