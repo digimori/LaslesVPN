@@ -7,7 +7,7 @@ const Heading = () => {
   return (
     <Container className="heading__container">
       <Row>
-        <Col className="col-md-6 heading__text">
+        <Col className="col-12 col-md-6 heading__text">
           <Row>
             <h1 className="headtext__rubik">
               Want anything to be easy with <strong>LaslesVPN.</strong>
@@ -23,7 +23,7 @@ const Heading = () => {
             <StartSubscribe text="Get Started" />
           </Row>
         </Col>
-        <Col className="col-md-5 heading__image">
+        <Col className="col-12 col-md-5 heading__image">
           <img src={headingImage} alt="" />
         </Col>
       </Row>

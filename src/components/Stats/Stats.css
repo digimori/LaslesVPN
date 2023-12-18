@@ -1,0 +1,23 @@
+.stats__container {
+  width: 100%;
+  margin: 150px auto;
+}
+
+.stats__container-inner {
+  justify-content: center;
+  margin: 0 auto;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 3px 75px 57px -7px rgba(13, 16, 37, 0.06);
+  padding: 30px 0;
+}
+
+.stats__container-inner_sides {
+  margin: 0 auto;
+  justify-content: center;
+}
+.stats__container-inner_middle {
+  margin: 0 auto;
+  border-left: 2px #eeeff2;
+  border-right: 2px #eeeff2;
+}
