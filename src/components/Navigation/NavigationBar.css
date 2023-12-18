@@ -50,3 +50,11 @@ button.nav__button {
   font-family: var(--font-base);
   font-size: 1rem;
 }
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  div.navbar-nav a {
+    font-size: 0.85rem;
+    padding: 0 10px;
+    margin: 0 5px;
+  }
+}
