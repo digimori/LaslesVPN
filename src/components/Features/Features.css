@@ -1,0 +1,9 @@
+.features__list {
+  list-style: none;
+}
+
+.features__list-item > svg {
+  color: #2fab73;
+  width: 24px;
+  height: 24px;
+}
