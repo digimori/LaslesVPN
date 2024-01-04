@@ -1,9 +1,29 @@
+.features__container {
+  margin-top: 150px;
+}
+
+.features__container-content_text {
+  margin-top: 40px;
+  padding-top: 30px;
+}
+
+.features__container-content_text {
+  padding-right: 30px;
+}
+
+.features__container-content_text h2 {
+  padding-top: 30px;
+  padding-right: 60px;
+}
+
 .features__list {
   list-style: none;
+  padding-top: 15px;
 }
 
 .features__list-item > svg {
   color: #2fab73;
   width: 24px;
   height: 24px;
+  margin: 10px;
 }
